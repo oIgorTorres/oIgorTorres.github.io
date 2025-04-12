@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/style.css">
+
+</head>
+
+<body>
+    
+
+    <header> <h1 id="textIn"> Informações do perfil</h1>  </header>
+
+<div id="d1">
+
+    <img id="foto1" onmouseover="click1()" onmouseout="clickout1()" src="img/foto1.jpg" alt="Foto">
+
+    
+    <h1 id="text1">Informações pessoais</h1>
+
+    <h3>Nome: Igor</h3>
+    <h3>Contato:</h3>
+    <h3>Cidade:</h3>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <h1>Descrição</h1>
+    <h3>Cursando programação na escola São Lucas. "(segundo módulo)"</h3>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <h1>Cursos complementares</h1>
+    <h3>Sem cursos complementares por ora</h3>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <h1>Experiências profissionais ou projetos desenvolvidos</h1>
+    <ul>
+        <li>Projeto Signo</li>
+        <li>Jogo 2.0</li>
+        <li>Projeto Git</li>
+    </ul>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  
+    <h1>Habilidades técnicas</h1>
+    <trbody>
+        <tr>
+            <th><img class="foto2" onmouseover="click2()" onmouseout="clickout2()" src="img/foto2.png" alt=""></th>
+            <th><img class="foto2" onmouseover="click3()" onmouseout="clickout3()"  src="img/foto3.png" alt=""></th>
+            <th><img class="foto2" onmouseover="click4()" onmouseout="clickout4()"  src="img/foto4.png" alt=""></th>
+        </tr>
+    </trbody>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
+</div>
+
+<footer><h1>Links para redes profissionais</h1>
+
+    <ul>
+        <li>GitHub</li>
+    </ul> </footer>
+
+<script>
+function click1(){
+var foto1var = window.document.getElementById("foto1") 
+foto1var.style.color = "orange"
+foto1var.style.width = "200px"
+foto1var.style.height = "200px"
+}
+
+function clickout1(){
+var foto1var = window.document.getElementById("foto1")
+foto1var.style.color = "black"
+foto1var.style.width = "250px"
+foto1var.style.height = "250px"
+}
+
+
+function click2(){
+var foto2var = window.document.getElementsByClassName("foto2")[0]
+foto2var.style.color = "orange"
+foto2var.style.width = "100px"
+foto2var.style.height = "100px"
+}
+
+function clickout2(){
+var foto2var = window.document.getElementsByClassName("foto2")[0]
+foto2var.style.color = "black"
+foto2var.style.width = "125px"
+foto2var.style.height = "125px"
+}
+
+
+function click3(){
+var foto2var = window.document.getElementsByClassName("foto2")[1]
+foto2var.style.color = "orange"
+foto2var.style.width = "100px"
+foto2var.style.height = "100px"
+}
+
+function clickout3(){
+var foto2var = window.document.getElementsByClassName("foto2")[1]
+foto2var.style.color = "black"
+foto2var.style.width = "125px"
+foto2var.style.height = "125px"
+}
+
+
+
+function click4(){
+var foto2var = window.document.getElementsByClassName("foto2")[2]
+foto2var.style.color = "orange"
+foto2var.style.width = "100px"
+foto2var.style.height = "100px"
+}
+
+function clickout4(){
+var foto2var = window.document.getElementsByClassName("foto2")[2]
+foto2var.style.color = "black"
+foto2var.style.width = "125px"
+foto2var.style.height = "125px"
+}
+
+
+
+</script>
+</body>
+</html>

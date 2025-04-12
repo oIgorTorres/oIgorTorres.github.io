@@ -1,0 +1,71 @@
+header{
+    padding: 50px;
+    background-color: rgb(40, 40, 41);
+    align-items: center;
+}
+
+#textIn{
+    font-size: 36px;
+    color: azure;
+    text-align: center;
+
+}
+
+#d1{
+    border-style: solid;
+    border-radius: 2%;
+    border-width: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin: 75px;
+
+}
+
+#foto1{
+    border-style: solid;
+    border-radius: 100%;
+    border-width: 8px;
+    width: 250px;
+    height: 250px;
+
+}
+
+#text1{
+    font-size: 36px;
+}
+
+body{
+    background-color: rgb(83, 83, 83);
+}
+
+.foto2{
+    border-style: solid;
+    border-radius: 25%;
+    border-width: 8px;
+    width: 125px;
+    height: 125px;
+
+}
+
+ul{
+    color: #ffffff;
+    font-size: 24px;
+}
+
+h3{
+    color: #cfcfcf;
+    font-size: 21px;
+}
+
+h1{
+    color: #ffffff;
+}
+
+footer{
+    padding: 30px;
+    background-color: rgb(40, 40, 41);
+    text-align: center;
+}
